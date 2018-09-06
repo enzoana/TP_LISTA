@@ -4,13 +4,6 @@
  * and open the template in the editor.
  */
 
-/* 
- * File:   LISTA.h
- * Author: gonzalo
- *
- * Created on 6 de septiembre de 2018, 16:31
- */
-
 #ifndef LISTA_H
 #define LISTA_H
 #define TRUE 1
@@ -18,20 +11,25 @@
 
 
 
-struct dato {
-    int dato;
-} typedef Dato;
+#define TRUE 0;
+#define FALSE -1;
 
-struct nodo {
+typedef struct dato {
+    int dato;
+} Dato;
+
+typedef struct nodo {
     Nodo *anterior;
     Dato dato;
     Nodo *siguiente;
-} typedef Nodo;
+} Nodo;
 
-struct lista {
+typedef struct lista {
     int cantidadNodos;
     Nodo *primerNodo;
-} typedef Lista;
+} Lista;
+
+
 
 #endif /* LISTA_H */
 
