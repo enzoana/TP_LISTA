@@ -33,24 +33,24 @@ struct lista {
 } typedef Lista;
 
 // 04  
-// Precondici髇:La lista tiene que ser v醠ida, el nodo tiene que ser v醠ido y la posici髇 debe ser un entero positivo
-// Entrada: Una lista, un nodo y una posici髇
+// Precondici贸n:La lista tiene que ser v谩lida, el nodo tiene que ser v谩lido y la posici贸n debe ser un entero positivo
+// Entrada: Una lista, un nodo y una posici贸n
 // Salida: Un boolean (True:El nodo fue insertado con exito en la posicion indicada / False:error en la insercion)
-// Postcondici髇: Se agrega un nuevo nodo en la posicion indicada de la lista.
+// Postcondici贸n: Se agrega un nuevo nodo en la posicion indicada de la lista.
 int inserteNodoPosicionLista (Lista *cabecera, Nodo nuevoNodo);
 
 //05
-// Precondici髇:La lista tiene que ser v醠ida y el nodo tiene que ser v醠ido 
+// Precondici贸n:La lista tiene que ser v谩lida y el nodo tiene que ser v谩lido 
 // Entrada: Una lista y un nodo
 // Salida: Un boolean (True:El nodo fue insertado con exito al final de la lista / False:error en la insercion)
-// Postcondici髇: Se agrega un nuevo nodo en el final  de la lista.
+// Postcondici贸n: Se agrega un nuevo nodo en el final  de la lista.
 void insertarNodoFinalLista (Lista *cabecera, Nodo nuevoNodo);
 
 // 06
-// Precondici髇:La lista tiene que ser v醠ida 
+// Precondici贸n:La lista tiene que ser v谩lida 
 // Entrada: Una lista
 // Salida: Un nodo False:error en la insercion)
-// Postcondici髇: Se obtiene una copia del nodo que esta en la cabeza de la lista
+// Postcondici贸n: Se obtiene una copia del nodo que esta en la cabeza de la lista
 Nodo leerNodoInicioLista(Lista cabecera);
 
 #endif /* LISTA_H */
