@@ -14,16 +14,6 @@
 #ifndef LISTA_H
 #define LISTA_H
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-
-
-
-#ifdef __cplusplus
-}
-#endif
 
 #endif /* LISTA_H */
 
