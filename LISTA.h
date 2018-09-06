@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 /* 
  * File:   LISTA.h
@@ -14,6 +9,20 @@
 #ifndef LISTA_H
 #define LISTA_H
 
+struct dato {
+    int dato;
+} typedef Dato;
+
+struct nodo {
+    Nodo *anterior;
+    Dato dato;
+    Nodo *siguiente;
+} typedef Nodo;
+
+struct lista {
+    int cantidadNodos;
+    Nodo *primerNodo;
+} typedef Lista;
 
 #endif /* LISTA_H */
 
