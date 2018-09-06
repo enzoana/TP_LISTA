@@ -17,6 +17,7 @@
 #define FALSE 0
 
 
+
 struct dato {
     int dato;
 } typedef Dato;
